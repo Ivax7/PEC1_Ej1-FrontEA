@@ -7,6 +7,12 @@ const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[~!@#$%^&*()_+\-={}|[
 
 
 function checkInput(input, e) {
+
+  let existingError = input.nextElementSibling;
+  if (existingError && existingError.classList.contains('error-message')) {
+    existingError.remove();
+  }
+
   let inputName = input.id[0].toUpperCase() + input.id.slice(1);
   let errorMessage = document.createElement('span');
   errorMessage.classList.add('error-message');
