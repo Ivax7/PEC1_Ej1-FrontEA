@@ -2,9 +2,10 @@
 
 - ¿Cuál es la ventaja del uso de etiquetas semánticas? Nombra y explica al menos 3 de estas ventajas.
 
-Las principales ventajas de utilizar etiquetas semánticas son.
+# Ventajas del uso de etiquetas semánticas
+
 **Mejora de accesibilidad**
-Lectores de paantalla y navegadores interpretan mejor el contenido de la página cuando se utilizan estas etiquetas. Ayuda a navegar por el sitio a aquellas personas con alguna discapacidad.
+Lectores de pantalla y navegadores interpretan mejor el contenido de la página cuando se utilizan estas etiquetas. Ayuda a navegar por el sitio a aquellas personas con alguna discapacidad.
 
 **Optimización para los motores de búsqueda**
 Una web se posicionará mejor (SEO) cuando se haga un buen uso de estas etiquetas, ya que los navegadores entienden la estructura de la web, posicionandose mejor en los resultados de búsqueda de los usuarios.
@@ -15,7 +16,7 @@ Un código estructurado únicamente por <div>'s y <span>'s será más difícil d
 - Cita al menos 3 APIs HTML5 y explica brevemente su funcionalidad.
 
 **Gelocation API**
-Recupera informaicón geográfica para que por ejemplo Google Maps encuentre la ubicación del usuario y la posisione en un mapa.
+Recupera informaicón geográfica para que por ejemplo Google Maps encuentre la ubicación del usuario y la posicione en un mapa.
 
 **Canvas**
 Permite crear gráficos 2D animados
@@ -40,19 +41,19 @@ Definir estructuras de datos más claras y reutilizables.
 **Soporte para la Programación Orientada a Objetos (POO)**
 La inclusión de clases, interfaces, herencia y modificadores de acceso como public, private.
 
-**Comptatibilidad con JavaScript**
+**Compatibilidad con JavaScript**
 EL código en JS es válido en TypeScript.
-
 
 
 2.
 
 - Cita al menos 2 de estos preprocesadores.
+
 **SASS** y **LESS**
 
 - Cita al menos 4 ventajas que ofrecen estos preprocesadores.
 **Herencia**
-Retulizar código evita la repetición de código.
+Reutilizar código evita la repetición de código.
 
 **Anidamiento**
 Facilita la estructura del código reflejando la jerarquía de los elementos HTML.
@@ -61,7 +62,7 @@ Facilita la estructura del código reflejando la jerarquía de los elementos HTM
 Permiten asignar colores, tamaños o fuentes por ejemplo a variables reutilizables a lo largo del proyecto.
 
 **Mixin**
-Permiten reutilizar bloques de código con parámetros personaliazables .
+Permiten reutilizar bloques de código con parámetros personalizables .
 
 
 - Explica brevemente en qué consisten los sourcemaps.
@@ -75,6 +76,7 @@ Typescript a JavaScript es un ejemplo, ya que Typescript añade el tipado estát
 3.
 
 - Cita al menos dos sistemas de control de versiones y dos herramientas de gestión de módulos.
+
 **Sistemas de control de versiones**
 Git
 CVS
@@ -83,32 +85,23 @@ CVS
 npm
 yarn
 
-
 - Cita y explica al menos 3 comandos de Git.
 
-**git branch**
-Se utiliza para gestionar las distintas ramas dentro del repositorio de Git y entre sus funcionalidades se encuentra ver las ramas existentes, crear nuevas ramas o eliminarlas.
+- **`git branch`**: Se utiliza para gestionar las distintas ramas dentro del repositorio de Git y entre sus funcionalidades se encuentra ver las ramas existentes, crear nuevas ramas o eliminarlas.
 
-**git commit**
-Se utiliza para guardas los cambios realizados en el repositorio.
+- **`git commit`**: Se utiliza para guardar los cambios realizados en el repositorio.
 
-**git status**
-git status Se utiliza para ver el estado actual del repositorio. Muestra qué archivos han sido modificados, cuáles están pendientes de ser confirmados (es decir, aquellos que han sido añadidos al área de preparación con git add y están listos para ser confirmados con git commit) y si hay archivos eliminados. También muestra información sobre el estado de la rama actual en relación con el repositorio remoto.
+- **`git status`**: Se utiliza para ver el estado actual del repositorio. Muestra qué archivos han sido modificados, cuáles están pendientes de ser confirmados (es decir, aquellos que han sido añadidos al área de preparación con git add y están listos para ser confirmados con git commit) y si hay archivos eliminados. También muestra información sobre el estado de la rama actual en relación con el repositorio remoto.
 
 
 - Cita y explica brevemente las características más definitorias de WebPack.
+  
+### Características de Webpack
+- **Bundling**: El empaquetado de webpack recoge todos los archivos de una app y los empaqueta en uno o más archivos de salida, optimizando el rendimento al reducir las peticiones HTTP.
+- **Loaders**: Los cargadores permiten procesar archivos que no son JavaScript de manera predeterminada. Se utilizan para convertir los archivos Typescript a JavaScript por ejemplo.
+- **Plugins**: Ayudan a la personalización en el proceso de contrucción, realizando tareas de optimización del código, minificación y la insersión de variables de entorno.
+- **Code Splitting**: Webpack permite la carga por fragmentos de código en los momentos adecuados.
 
-**Bundling**
-El empaquetado de webpack recoge todos los archivos de una app y los empaqueta en uno o más archivos de salida, optimizando el rendimento al reducir las peticiones HTTP.
+- **Hot Module Replacement**: En fase de desarrollo Webpack permite reemplazar las partes de código que están siendo editadas sin recargar la página completamente mejorando la experiencia del desarrollador al ver los cambios en tiempo real.
 
-**Loaders**
-Los cargadores permiten procesar archivos que no son JavaScript de manera predeterminada. Se utilizan para convertir los archivos Typescript a JavaScript por ejemplo.
-
-**Plugins**
-Ayudan a la personalización en el proceso de contrucción, realizando tareas de optimización del código, minificación y la insersión de variables de entorno.
-
-**Code Splitting**
-Webpack permite la carga por fragmentos de código en los momentos adecuados.
-
-**Hot Module Replacement**
-En fase de desarrollo Webpack permite reemplazar las partes de código que están siendo editadas sin recargar la página completamente mejorando la experiencia del desarrollador al ver los cambios en tiempo real.
+Para más información sobre Webpack, puedes consultar su [documentación oficial](https://webpack.js.org/).

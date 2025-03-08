@@ -7,7 +7,7 @@ const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
 
 let ticketPrice = parseInt(movieSelect.value);
-let exchangeRate = 1; // Inicialmente en USD
+let exchangeRate = 1;
 
 const currency = document.getElementById('currency');
 
@@ -31,7 +31,6 @@ function updateSelectedCount() {
   const selectedSeatsCount = selectedSeats.length;
   count.innerText = selectedSeatsCount;
 
-  // Convertir el precio con la tasa de cambio
   const convertedPrice = (selectedSeatsCount * ticketPrice * exchangeRate).toFixed(2);
   total.innerText = `${convertedPrice} ${currency.value}`;
 }
